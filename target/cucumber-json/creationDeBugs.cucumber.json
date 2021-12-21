@@ -1,0 +1,205 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "As a user I want connect herokuapp todesbugs website",
+    "line": 2,
+    "id": "as-a-user-i-want-connect-herokuapp-todesbugs-website",
+    "tags": [
+      {
+        "name": "@translation",
+        "line": 1
+      }
+    ],
+    "uri": "creationDeBugs.feature",
+    "elements": [
+      {
+        "id": "as-a-user-i-want-connect-herokuapp-todesbugs-website;as-a-user-i-want-to-create-debug-to-herokuapp",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "As a user i want to create debug to herokuapp",
+        "tags": [
+          {
+            "name": "@translation",
+            "line": 1
+          },
+          {
+            "name": "@creationDeBugs",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "i am on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 4248000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I am login with \"tester2\" and \"tester2\"",
+            "result": {
+              "status": "passed",
+              "duration": 1065000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "i should be able to connect",
+            "result": {
+              "status": "passed",
+              "duration": 1403000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I click to open the vertical menu",
+            "result": {
+              "status": "passed",
+              "duration": 654000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click to the bug link",
+            "result": {
+              "status": "passed",
+              "duration": 1088000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click to the create bug button",
+            "result": {
+              "status": "passed",
+              "duration": 459000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I choose to report a bug",
+            "result": {
+              "status": "passed",
+              "duration": 403000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I choose a Dekstop Device with \"herokuapp bugs\" and \"herokuapp-bugs.com\" and \"probleme d'authentification\"",
+            "result": {
+              "status": "passed",
+              "duration": 7774000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I create bugs with \"rooseAgency\"",
+            "result": {
+              "status": "passed",
+              "duration": 17304000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I submit the informations",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "as-a-user-i-want-connect-herokuapp-todesbugs-website;as-a-user-i-want-to-create-account-on-herokuapp-debugs",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "As a user i want to create account on herokuapp debugs",
+        "tags": [
+          {
+            "name": "@translation",
+            "line": 1
+          },
+          {
+            "name": "@register",
+            "line": 21
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "I open the register page",
+            "result": {
+              "status": "passed",
+              "duration": 4423000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I register with \"tester\" and \"testCypress\" and \"roose0\" and \"010000000000\"",
+            "result": {
+              "status": "passed",
+              "duration": 1840000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I write my \"testCypress@yopmail.com\" and \"Roose0000\" and \"Roose0000\"",
+            "result": {
+              "status": "passed",
+              "duration": 1618000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I accept the CPU andvalidate the recapcha",
+            "result": {
+              "status": "passed",
+              "duration": 174000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I submit the informations",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

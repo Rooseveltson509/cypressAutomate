@@ -1,0 +1,24 @@
+{
+  "projectId": "byfmg1",
+  "baseUrl": "https://rec-desbugs.herokuapp.com/",
+  "defaultCommandTimeout": 10000,
+  "retries": {
+    "runMode": 2,
+    "openMode": 0
+  },
+  "scrollBehavior": "bottom",
+  "testFiles": [
+    "**/*.feature",
+    "**/*.js"
+  ],
+  "viewportHeight": 1000,
+  "viewportWidth": 1000,
+  "screenshotsFolder": "target/screenshots",
+  "videosFolder": "target/videos",
+  "downloadsFolder": "target/downloads",
+  "reporter": "mocha-allure-reporter",
+  "integrationFolder":"src/test/integration",
+  "fixturesFolder":"src/ressources/fixtures",
+  "supportFile":"src/main/support",
+  "pluginsFile":"src/main/plugins"
+}
